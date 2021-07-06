@@ -165,19 +165,18 @@ section.recipies {
     padding: 4rem 0 0 0rem;
 }
 .box {
-    width: 45rem;
-    float: left;
+    
+ 
+   
     margin-right: 7rem;
-    /* border: 1px solid #ddd; */
     padding: 22px 24px;
     border-radius: 8%;
     box-shadow: 0px 0px 25px 0 #dadada;
 }
 
 .recipe-container {
-    padding: 10rem 5rem;
-    overflow: hidden;
-    margin-left: 70px;
+    display: flex;
+    margin-left: 19rem;
 }
 
 
