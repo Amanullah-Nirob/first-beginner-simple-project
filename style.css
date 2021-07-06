@@ -177,7 +177,7 @@ section.recipies {
 
 .recipe-container {
     display: flex;
-    margin-left: 21rem;
+    margin-left: 12rem;
 }
 
 
@@ -221,13 +221,13 @@ section.recipies {
     border-radius: 31px;
 }
 .complite-contents-all {
-    padding-left: 14.5rem;
+    padding-left: 14.5rem;overflow: hidden;
 }
 .complite-content {
     float: left;
     margin-left: 8rem;
     text-align: center;
-    margin-right: 19rem;
+    margin-right: 12rem;
     
 }
 
@@ -401,10 +401,19 @@ button.btn {
     padding: 2rem 0;
     background: #040413;
     border-top: 1px solid #ddd;
-    position: relative;
+    overflow: hidden;
+   
+}
+.footer2-container {
+    display: flex;
+    overflow: hidden;
+    margin-left: 19rem;
 }
 
-.footer-content2 {margin-left: 25rem;}
+.footer-content2 {
+    margin-right: 32rem;
+}
+
 
 .footer-content2 p {
     font-size: 14px;
@@ -412,14 +421,7 @@ button.btn {
 }
 
 
-ul.list {
-    margin-left: 105rem;
-    list-style: none;
-    width: 24%;
-    overflow: hidden;
-    position: absolute;
-    bottom: 10px;
-}
+
 
 ul.list li {
     float: left;
