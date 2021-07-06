@@ -111,11 +111,11 @@ gap:1.5rem
 
 .about-left-content{
 flex:1 1 30rem;
-margin: 0rem 0 0 18rem;
+margin: 0rem 0 0 18rem;   
 }
 .about .about-content .row .about-left-content img{
 width: 52%;
-
+margin-left: 8rem;
 }
 
 
@@ -172,11 +172,12 @@ section.recipies {
     padding: 22px 24px;
     border-radius: 8%;
     box-shadow: 0px 0px 25px 0 #dadada;
+    margin-top: 7rem;
 }
 
 .recipe-container {
     display: flex;
-    margin-left: 19rem;
+    margin-left: 21rem;
 }
 
 
@@ -224,9 +225,10 @@ section.recipies {
 }
 .complite-content {
     float: left;
-    margin-left: 4rem;
+    margin-left: 8rem;
     text-align: center;
     margin-right: 19rem;
+    
 }
 
 .complite-content h1 {
