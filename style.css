@@ -162,7 +162,7 @@ section.recipies {
     width: 63rem;
     margin: auto;
     line-height: 27px;
-    padding: 4rem 0 6rem 0rem;
+    padding: 4rem 0 0 0rem;
 }
 .box {
     width: 45rem;
@@ -175,7 +175,9 @@ section.recipies {
 }
 
 .recipe-container {
-    padding-left: 11.8rem;
+    padding: 10rem 5rem;
+    overflow: hidden;
+    margin-left: 70px;
 }
 
 
